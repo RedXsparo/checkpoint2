@@ -1,0 +1,28 @@
+ALGORITHM dot-product (v1 , v2: integer[2]) : integer
+VAR
+ps := v1[0]*v2[0] + v1[1]*v2[1]
+return ps ; 
+end
+ALGORITHM dot-product 
+var 
+n: integer; 
+cl :  ARRAY_OF integer[n][2];
+begin
+        write("enter the number of vectors"); 
+        readln(n);
+for from i=0 to n-1 do 
+    writeln ("donner l'element " , i+1, " du vecteur v ")
+    readln (v[i]);
+    writeln ("donner l'élement " ,i+1, " du vecteur u ")
+    readln( c[i][1])
+end for    
+ VAR sc : intger:=0;
+write
+
+p=0 
+    for i = 0 to 1 step 1 do 
+    p = p +v[i]*u[i]
+end for 
+writeln ("le produit scalaire des vectuers u et v est : " ,  p )
+
+end.
